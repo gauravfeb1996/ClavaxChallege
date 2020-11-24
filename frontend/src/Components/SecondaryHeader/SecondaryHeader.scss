@@ -1,0 +1,21 @@
+.seconadry-header-wrapper {
+    padding: 16px 32px;
+    margin-bottom: 32px;
+    background-color: #fafbfc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .repo-names {
+        font-size: 20px;
+        .owner {
+            font-weight: 400;
+        }
+        .repo-name {
+            font-weight: 600;
+        }
+    }
+    .button-area {
+        display: flex;
+        align-items: center;
+    }
+}

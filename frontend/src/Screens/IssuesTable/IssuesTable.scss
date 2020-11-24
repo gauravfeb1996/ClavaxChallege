@@ -1,0 +1,40 @@
+.issues-table-wrapper {
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    .table-heading {
+        padding: 16px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        background-color: #f6f8fa;
+        border-bottom: 1px solid #e1e4e8;
+        img {
+            margin-right: 4px;
+        }
+        .open-issues {
+            font-weight: 600;
+            color: #24292e;
+            display: flex;
+            align-items: center;
+            img {
+                width: 16px;
+                height: 16px;
+                margin-right: 6px;
+            }
+        }
+        .closed-issues {
+            color: #586069;
+            margin-left: 10px;
+            display: flex;
+            align-items: center;
+            img {
+                width: 16px;
+                height: 16px;
+                margin-right: 6px;
+            }
+        }
+    }
+    .issue-row-container {
+        border-bottom: 1px solid #eaecef;
+    }
+}

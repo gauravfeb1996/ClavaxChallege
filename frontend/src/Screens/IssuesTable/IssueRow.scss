@@ -1,0 +1,35 @@
+.issue-row-container {
+    padding: 16px;
+    .issue-heading {
+        padding: 8px;
+        display: flex;
+        .title-area-right {
+            .title-area {
+                display: flex;
+                align-items: center;
+                .title {
+                    color: #24292e;
+                    font-size: 16px;
+                    font-weight: 600;
+                    text-decoration: none;
+                    margin-right: 5px;
+                }
+            }
+            .issue-sub-details {
+                margin-top: 4px;
+                font-size: 12px;
+                color: #586069;
+                .user-name {
+                    text-decoration: none;
+                    color: #586069;
+                }
+            }
+        }
+        img {
+            width: 16px;
+            height: 16px;
+            margin-right: 6px;
+            padding-top: 4px;
+        }
+    }
+}
